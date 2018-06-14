@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-char ssid[] = "myNetwork";    //  your network SSID (name) 
-char pass[] = "myPassword";   // your network password
+char ssid[] = "ssid";    //  your network SSID (name) 
+char pass[] = "password";   // your network password
 int status = WL_IDLE_STATUS;
 
 void setup() {

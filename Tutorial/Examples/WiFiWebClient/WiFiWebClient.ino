@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-char ssid[] = "honor 9"; //  your network SSID (name)
-char pass[] = "passwort";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "ssid"; //  your network SSID (name)
+char pass[] = "password";    // your network password (use for WPA, or use as key for WEP)
 
 int status = WL_IDLE_STATUS;
 char server[] = "api.openweathermap.org";    // name address for Google (using DNS)
